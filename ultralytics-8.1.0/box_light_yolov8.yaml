@@ -1,0 +1,36 @@
+# Dataset configuration for YOLO training
+
+# Dataset root directory
+path: /data/xuke_new/box_light/yolo_divide
+train: images/train  # Training images (relative to 'path')
+val: images/val  # Validation images (relative to 'path')
+
+# Classes
+names:
+  0: Arrow_signal_light
+  1: Non_motorized_vehiclesignal_light
+  2: Circle_signal_light
+  3: Pedestrian_signal_lights
+  4: Other_signal_light
+  5: right_sign_red
+  6: right_sign_green
+  7: right_sign_yellow
+  8: left_sign_red
+  9: left_sign_green
+  10: left_sign_yellow
+  11: circle_sign_red
+  12: circle_sign_green
+  13: circle_sign_yellow
+  14: bicycle_sign_red
+  15: bicycle_sign_green
+  16: pedestrian_sign_red
+  17: pedestrian_sign_green
+  18: straight_sign_red
+  19: straight_sign_green
+  20: straight_sign_yellow
+  21: uturn_sign_red
+  22: uturn_sign_green
+  23: uturn_sign_yellow
+  24: straight_left_arrow_red
+  25: straight_left_arrow_green
+  26: straight_left_arrow_yellow
